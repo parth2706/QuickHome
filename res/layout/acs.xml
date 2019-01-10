@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         />   
+<TextView
+        android:id="@+id/TV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="AIR CONDITIONERS"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         />
+    
+     
+    
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    
+        
+          <EditText
+              android:id="@+id/editac1"
+              android:layout_width="200dp"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@+id/TB31"
+              android:layout_toLeftOf="@+id/TB31"
+              android:ems="10"
+              android:inputType="textMultiLine"
+              android:text="Bedroom fan" />
+         
+          <ToggleButton
+             android:id="@+id/TB31"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="66dp"
+             android:text="ToggleButton" 
+             android:onClick="onACS1"/>
+          
+           
+          <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+         />
+           </RelativeLayout> 
+   <!--          
+          
+      </RelativeLayout>  
+       <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+         />
+
+    <SeekBar
+        android:id="@+id/seekBar31"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="3" />
+
+
+<Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+         />
+            
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:paddingRight="@dimen/activity_horizontal_margin" >
+         
+
+          <EditText
+            android:id="@+id/editfan2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TB32"
+            android:layout_toLeftOf="@+id/TB32"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Hall fan" />
+          
+            <ToggleButton
+             android:id="@+id/TB32"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+             android:layout_marginRight="66dp"
+             android:text="ToggleButton" 
+             android:onClick="onACS2"/>
+    </RelativeLayout> 
+  
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+         />
+
+     <SeekBar
+         android:id="@+id/seekBar32"
+         android:layout_width="238dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:max="3" />
+ -->  
+   
+</LinearLayout>

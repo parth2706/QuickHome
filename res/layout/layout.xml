@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quickhome_layout"
+    android:orientation="vertical" >
+
+  <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+         />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="54dp"
+      android:paddingLeft="@dimen/activity_horizontal_margin"
+      android:paddingRight="@dimen/activity_horizontal_margin" >
+
+      <ToggleButton
+          android:id="@+id/mylight1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="40dp"
+          android:layout_weight="0.00"
+          android:onClick="clickmelight1"
+          android:text="Fan 1" />
+
+      <ToggleButton
+          android:id="@+id/myfan1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="35dp"
+          android:layout_weight="0.00"
+          android:onClick="clickmefan1"
+          android:text="Fan 1" />
+
+  </RelativeLayout>
+<Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         />
+  <ToggleButton
+          android:id="@+id/myac"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="40dp"
+          android:layout_weight="0.00"
+          android:onClick="clickmeac"
+          android:text="Fan 1" />
+<Space
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+         />
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="54dp"
+      android:paddingLeft="@dimen/activity_horizontal_margin"
+      android:paddingRight="@dimen/activity_horizontal_margin" >
+
+      <ToggleButton
+          android:id="@+id/mylight2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="40dp"
+          android:layout_weight="0.00"
+          android:onClick="clickmelight2"
+          android:text="Fan 1" />
+
+      <ToggleButton
+          android:id="@+id/myfan2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="35dp"
+          android:layout_weight="0.00"
+          android:onClick="clickmefan2"
+          android:text="Fan 1" />
+
+  </RelativeLayout>
+  
+
+</LinearLayout>
